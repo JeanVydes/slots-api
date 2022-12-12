@@ -54,7 +54,7 @@ In summary, the GameI struct provides a way to store information about a game an
 
 ```
 // Speicfy the game information
-this.Game = GameI{
+game = GameI{
 		ID:      "1000000", // ID
 		Name:    "Coin Flip", // A Name
 		Version: "0.0.1beta", // A version
@@ -69,7 +69,7 @@ this.Game = GameI{
 }
 
 // Send the game to game registration queue
-gameRegistrationQueue <- this.Game
+gameRegistrationQueue <- game
 ```
 
 ### User
